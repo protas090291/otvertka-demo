@@ -1,0 +1,10 @@
+node_modules
+Helper2/node_modules
+.git
+*.md
+.env
+.env.*
+__MACOSX
+*.log
+Helper2/dist
+Helper2/existing_documents

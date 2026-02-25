@@ -1,0 +1,10 @@
+{
+  "name": "otvertka-demo-root",
+  "private": true,
+  "description": "Root package for TimeWeb/CI: delegates to Helper2 app",
+  "scripts": {
+    "build": "cd Helper2 && npm run build",
+    "install:all": "cd Helper2 && npm install",
+    "postinstall": "cd Helper2 && npm install"
+  }
+}
