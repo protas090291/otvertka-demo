@@ -11,6 +11,9 @@ build/
 # Node.js runtime (too large for GitHub)
 nodejs/
 
+# Документы с длинными именами (ломают checkout на Linux/TimeWeb)
+Helper2/existing_documents/
+
 # Environment variables
 .env
 .env.local
