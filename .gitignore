@@ -79,3 +79,4 @@ backend/documents/*.pdf
 
 
 
+Helper2/datasets/training_data/concrete_defect_model.h5
