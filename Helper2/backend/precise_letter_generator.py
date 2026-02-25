@@ -1,0 +1,214 @@
+#!/usr/bin/env python3
+"""
+Генератор писем с точным форматированием как в оригинальных документах
+"""
+
+import os
+import uuid
+from datetime import datetime
+from docx import Document
+from docx.shared import Inches, Pt
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.oxml.shared import OxmlElement, qn
+
+class PreciseLetterGenerator:
+    def __init__(self, documents_dir: str = "../existing_documents"):
+        self.documents_dir = documents_dir
+        self.logo_path = "logo_image1.png"
+        os.makedirs(documents_dir, exist_ok=True)
+    
+    def create_precise_letter(self, apartment_id: str, issue_type: str, issue_description: str) -> str:
+        """Создает письмо с точным форматированием как в оригинале"""
+        
+        # Создаем документ
+        doc = Document()
+        
+        # Устанавливаем точные поля как в оригинале
+        sections = doc.sections
+        for section in sections:
+            section.top_margin = Inches(0.5)      # 0.50 дюйма
+            section.bottom_margin = Inches(0.5)   # 0.50 дюйма
+            section.left_margin = Inches(0.5)     # 0.50 дюйма
+            section.right_margin = Inches(0.5)    # 0.50 дюйма
+        
+        # 1. ТАБЛИЦА С ЛОГОТИПОМ И АДРЕСОМ
+        self._add_precise_logo_table(doc)
+        
+        # 2. ОБРАЩЕНИЕ (по центру)
+        self._add_precise_greeting(doc)
+        
+        # 3. ОСНОВНОЙ ТЕКСТ (с точными отступами)
+        self._add_precise_main_content(doc, apartment_id, issue_type, issue_description)
+        
+        # 4. ПРОСЬБА О СОДЕЙСТВИИ (с отступами)
+        self._add_precise_request(doc)
+        
+        # 5. ПОДПИСЬ (с точными отступами)
+        self._add_precise_signature(doc)
+        
+        # Сохраняем документ
+        filename = f"Исх. письмо {issue_type} {apartment_id} от {datetime.now().strftime('%d.%m.%y')}.docx"
+        filepath = os.path.join(self.documents_dir, filename)
+        doc.save(filepath)
+        
+        return filepath
+    
+    def _add_precise_logo_table(self, doc: Document):
+        """Добавляет таблицу с логотипом и точным форматированием"""
+        # Создаем таблицу 1x2
+        table = doc.add_table(rows=1, cols=2)
+        # Убираем рамки таблицы
+        table.style = None
+        table.alignment = WD_TABLE_ALIGNMENT.LEFT
+        
+        # Получаем ячейки
+        cells = table.rows[0].cells
+        
+        # Левая ячейка - логотип и адрес отправителя
+        left_cell = cells[0]
+        
+        # Добавляем логотип, если он существует
+        if os.path.exists(self.logo_path):
+            try:
+                paragraph = left_cell.paragraphs[0]
+                run = paragraph.add_run()
+                run.add_picture(self.logo_path, width=Inches(1.5))
+                paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                
+                # Добавляем адрес под логотипом
+                address_para = left_cell.add_paragraph()
+                address_para.text = "Российская Федерация, 124498, Россия, Москва г.,\nЗеленоград г., 4922-й проезд, строение 2"
+                address_para.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                
+            except Exception as e:
+                print(f"Ошибка добавления логотипа: {e}")
+                left_para = left_cell.paragraphs[0]
+                left_para.text = "Российская Федерация, 124498, Россия, Москва г.,\nЗеленоград г., 4922-й проезд, строение 2"
+                left_para.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        else:
+            left_para = left_cell.paragraphs[0]
+            left_para.text = "Российская Федерация, 124498, Россия, Москва г.,\nЗеленоград г., 4922-й проезд, строение 2"
+            left_para.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        
+        # Правая ячейка - адрес получателя (по правому краю)
+        right_cell = cells[1]
+        right_para = right_cell.paragraphs[0]
+        right_para.text = "Руководителю проекта\nООО «АВ Development»\nЭльман И.И."
+        right_para.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+        
+        # Добавляем пустую строку после таблицы
+        doc.add_paragraph()
+    
+    def _add_precise_greeting(self, doc: Document):
+        """Добавляет обращение с точным форматированием"""
+        greeting = doc.add_paragraph()
+        greeting.text = "Уважаемый Иса Исаевич!"
+        greeting.alignment = WD_ALIGN_PARAGRAPH.CENTER  # По центру как в оригинале
+        
+        # Добавляем пустую строку
+        doc.add_paragraph()
+    
+    def _add_precise_main_content(self, doc: Document, apartment_id: str, issue_type: str, issue_description: str):
+        """Добавляет основной текст с точными отступами"""
+        
+        # Первый абзац - с левым отступом 14.2 pt и отступом первой строки 28.35 pt
+        start_para = doc.add_paragraph()
+        start_para.text = f"Уведомляем Вас о том, что {issue_description.lower()}"
+        start_para.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+        start_para.paragraph_format.left_indent = Pt(14.2)
+        start_para.paragraph_format.first_line_indent = Pt(28.35)
+        
+        # Дополнительная информация в зависимости от типа проблемы
+        if "смещение сроков" in issue_type.lower():
+            additional_para = doc.add_paragraph()
+            additional_para.text = "Данный факт влияет на сроки производства работ и монтаж инженерных систем, в том числе системы отопления, водоснабжения, вентиляции и электроснабжения компанией ООО «Интербилдинг» - сроки будут увеличены."
+            additional_para.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+            additional_para.paragraph_format.first_line_indent = Pt(35.45)  # Как в оригинале
+        elif "дефект" in issue_type.lower() or "проблема" in issue_type.lower():
+            additional_para = doc.add_paragraph()
+            additional_para.text = f"Обнаруженные дефекты в квартире {apartment_id} требуют немедленного устранения для обеспечения качества выполняемых работ и соблюдения сроков сдачи объекта."
+            additional_para.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+            additional_para.paragraph_format.first_line_indent = Pt(35.45)  # Как в оригинале
+        
+        # Добавляем пустую строку
+        doc.add_paragraph()
+    
+    def _add_precise_request(self, doc: Document):
+        """Добавляет просьбу о содействии с точными отступами"""
+        request_para = doc.add_paragraph()
+        request_para.text = "Просим Вас посодействовать в решении данного вопроса для ускорения процесса сдачи и передачи инженерных систем компанией ООО «Сварго» и выполнения монтажных работ инженерных систем компанией ООО «Интербилдинг»."
+        request_para.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+        request_para.paragraph_format.first_line_indent = Pt(35.45)  # Как в оригинале
+        request_para.paragraph_format.line_spacing = 1.0  # Межстрочный интервал как в оригинале
+        
+        # Добавляем несколько пустых строк перед подписью
+        for _ in range(8):
+            doc.add_paragraph()
+    
+    def _add_precise_signature(self, doc: Document):
+        """Добавляет подпись: должность слева, инициалы справа"""
+        # Должность - слева
+        position_para1 = doc.add_paragraph()
+        position_para1.text = "Заместитель директора и"
+        position_para1.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        
+        position_para2 = doc.add_paragraph()
+        position_para2.text = "руководитель проекта строительства"
+        position_para2.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        
+        # Компания слева
+        signature_para = doc.add_paragraph()
+        signature_para.text = "ООО «Интербилдинг»"
+        signature_para.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        
+        # Инициалы по правому краю
+        initials_para = doc.add_paragraph()
+        initials_para.text = "Кучун Р.В."
+        initials_para.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+
+def create_precise_letter():
+    """Создает письмо с точным форматированием"""
+    print("📧 Создание письма с точным форматированием...")
+    
+    generator = PreciseLetterGenerator()
+    
+    # Тестовые данные
+    apartment_id = "1701"
+    issue_type = "техническая проблема"
+    issue_description = "обнаружены трещины в стенах после завершения штукатурных работ в квартире 1701, требующие дополнительного обследования и устранения"
+    
+    try:
+        result = generator.create_precise_letter(
+            apartment_id=apartment_id,
+            issue_type=issue_type,
+            issue_description=issue_description
+        )
+        
+        if result:
+            print("✅ Письмо с точным форматированием создано!")
+            print(f"📁 Файл: {result}")
+            
+            # Показываем содержимое
+            print("\n📄 СОДЕРЖИМОЕ ПИСЬМА С ТОЧНЫМ ФОРМАТИРОВАНИЕМ:")
+            print("=" * 60)
+            
+            from docx import Document
+            doc = Document(result)
+            for i, paragraph in enumerate(doc.paragraphs, 1):
+                if paragraph.text.strip():
+                    print(f"{i:2d}. {paragraph.text}")
+            
+            print("=" * 60)
+            
+            return result
+        else:
+            print("❌ Не удалось создать письмо")
+            return None
+            
+    except Exception as e:
+        print(f"❌ Ошибка при создании письма: {e}")
+        return None
+
+if __name__ == "__main__":
+    create_precise_letter()

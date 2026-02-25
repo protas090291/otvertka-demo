@@ -1,0 +1,163 @@
+{
+  "path": "disk:/Вишневый_сад-3_для_Заказчика",
+  "type": "dir",
+  "name": "Вишневый_сад-3_для_Заказчика",
+  "created": "2025-11-06T13:36:54+00:00",
+  "modified": "2025-11-06T13:36:54+00:00",
+  "public_key": "rYiFu6mufULe1DHjwJd/fwNRXLLBOjbn+IzlvagPeLF85e6pxnA25aaBeLlmUwPlq/J6bpmRyOJonT3VoXnDag==",
+  "public_url": "https://yadi.sk/d/430f03O1cR8Yag",
+  "_embedded": {
+    "path": "disk:/Вишневый_сад-3_для_Заказчика",
+    "limit": 1000,
+    "offset": 0,
+    "sort": "",
+    "total": 7,
+    "items": [
+      {
+        "path": "disk:/Вишневый_сад-3_для_Заказчика/1. РД",
+        "type": "dir",
+        "name": "1. РД",
+        "created": "2025-11-15T09:14:24+00:00",
+        "modified": "2025-11-15T09:14:29+00:00",
+        "resource_id": "1967179759:df2e9d5bfb377857d69e9fa3f976cf3e5cdd821c5e81d8af1bc7c46f3a72c4e8",
+        "share": {
+          "rights": "rw",
+          "is_owned": false,
+          "is_root": false
+        },
+        "revision": 1763198069526335,
+        "comment_ids": {
+          "public_resource": "1967179759:df2e9d5bfb377857d69e9fa3f976cf3e5cdd821c5e81d8af1bc7c46f3a72c4e8",
+          "private_resource": "1967179759:df2e9d5bfb377857d69e9fa3f976cf3e5cdd821c5e81d8af1bc7c46f3a72c4e8"
+        },
+        "exif": {}
+      },
+      {
+        "path": "disk:/Вишневый_сад-3_для_Заказчика/2. ИД",
+        "type": "dir",
+        "name": "2. ИД",
+        "created": "2025-11-15T09:15:24+00:00",
+        "modified": "2025-11-15T09:15:26+00:00",
+        "resource_id": "1967179759:dec41033163ced4ec6cb1250be868c272e9bc8b36e2aa2887b5199a8afeb9503",
+        "share": {
+          "rights": "rw",
+          "is_owned": false,
+          "is_root": false
+        },
+        "revision": 1763198127184719,
+        "comment_ids": {
+          "public_resource": "1967179759:dec41033163ced4ec6cb1250be868c272e9bc8b36e2aa2887b5199a8afeb9503",
+          "private_resource": "1967179759:dec41033163ced4ec6cb1250be868c272e9bc8b36e2aa2887b5199a8afeb9503"
+        },
+        "exif": {}
+      },
+      {
+        "path": "disk:/Вишневый_сад-3_для_Заказчика/3. Акты",
+        "type": "dir",
+        "name": "3. Акты",
+        "created": "2025-11-15T09:42:26+00:00",
+        "modified": "2025-11-15T09:50:01+00:00",
+        "resource_id": "1967179759:61501b4452699e86eeb41207c0e1c8fbb38031148cae59b55b8f3014cf2b2a96",
+        "share": {
+          "rights": "rw",
+          "is_owned": false,
+          "is_root": false
+        },
+        "revision": 1763200210617067,
+        "comment_ids": {
+          "public_resource": "1967179759:61501b4452699e86eeb41207c0e1c8fbb38031148cae59b55b8f3014cf2b2a96",
+          "private_resource": "1967179759:61501b4452699e86eeb41207c0e1c8fbb38031148cae59b55b8f3014cf2b2a96"
+        },
+        "exif": {}
+      },
+      {
+        "path": "disk:/Вишневый_сад-3_для_Заказчика/3. Акты (2)",
+        "type": "dir",
+        "name": "3. Акты (2)",
+        "created": "2025-11-15T09:51:57+00:00",
+        "modified": "2025-11-15T09:51:57+00:00",
+        "resource_id": "1967179759:9f431b77dc924b177229e035f81458a0e26c59bc518aacc3a0d5347934e7a0df",
+        "share": {
+          "rights": "rw",
+          "is_owned": false,
+          "is_root": false
+        },
+        "revision": 1763200317079134,
+        "comment_ids": {
+          "public_resource": "1967179759:9f431b77dc924b177229e035f81458a0e26c59bc518aacc3a0d5347934e7a0df",
+          "private_resource": "1967179759:9f431b77dc924b177229e035f81458a0e26c59bc518aacc3a0d5347934e7a0df"
+        },
+        "exif": {}
+      },
+      {
+        "path": "disk:/Вишневый_сад-3_для_Заказчика/4. ГПР",
+        "type": "dir",
+        "name": "4. ГПР",
+        "created": "2025-08-07T14:54:03+00:00",
+        "modified": "2025-11-15T09:43:00+00:00",
+        "resource_id": "1967179759:3db9e04f777741c139ddfe610f95f5e799487e30ef2dd0243b87d89de6fb04a5",
+        "share": {
+          "rights": "rw",
+          "is_owned": false,
+          "is_root": false
+        },
+        "revision": 1763199780375428,
+        "comment_ids": {
+          "public_resource": "1967179759:3db9e04f777741c139ddfe610f95f5e799487e30ef2dd0243b87d89de6fb04a5",
+          "private_resource": "1967179759:3db9e04f777741c139ddfe610f95f5e799487e30ef2dd0243b87d89de6fb04a5"
+        },
+        "exif": {}
+      },
+      {
+        "path": "disk:/Вишневый_сад-3_для_Заказчика/5. Отчеты",
+        "type": "dir",
+        "name": "5. Отчеты",
+        "created": "2025-11-15T09:43:59+00:00",
+        "modified": "2025-11-15T09:43:59+00:00",
+        "resource_id": "1967179759:8d25c1bf6d705e99c8617a234784962e798688a74191559d165ad855d58e9330",
+        "share": {
+          "rights": "rw",
+          "is_owned": false,
+          "is_root": false
+        },
+        "revision": 1763199839733642,
+        "comment_ids": {
+          "public_resource": "1967179759:8d25c1bf6d705e99c8617a234784962e798688a74191559d165ad855d58e9330",
+          "private_resource": "1967179759:8d25c1bf6d705e99c8617a234784962e798688a74191559d165ad855d58e9330"
+        },
+        "exif": {}
+      },
+      {
+        "path": "disk:/Вишневый_сад-3_для_Заказчика/6. Письма",
+        "type": "dir",
+        "name": "6. Письма",
+        "created": "2025-07-25T07:19:04+00:00",
+        "modified": "2025-11-15T09:43:35+00:00",
+        "resource_id": "1967179759:951c8f778026c82f351880c877a9a0ca24bbe1d2d8d184e31bb95c7ac82e2394",
+        "share": {
+          "rights": "rw",
+          "is_owned": false,
+          "is_root": false
+        },
+        "revision": 1763199816240651,
+        "comment_ids": {
+          "public_resource": "1967179759:951c8f778026c82f351880c877a9a0ca24bbe1d2d8d184e31bb95c7ac82e2394",
+          "private_resource": "1967179759:951c8f778026c82f351880c877a9a0ca24bbe1d2d8d184e31bb95c7ac82e2394"
+        },
+        "exif": {}
+      }
+    ]
+  },
+  "resource_id": "2184383081:c7377dafdfd6def417aa442633655a239bf70737b126a78fc7cf7c9019fbd1da",
+  "share": {
+    "rights": "rw",
+    "is_owned": false,
+    "is_root": true
+  },
+  "revision": 1762700112432835,
+  "comment_ids": {
+    "public_resource": "2184383081:c7377dafdfd6def417aa442633655a239bf70737b126a78fc7cf7c9019fbd1da",
+    "private_resource": "1967179759:9f0b5530aeb706a16831b4e231089c6feeec952df9016efb466f7d5b69f32e65"
+  },
+  "exif": {}
+}

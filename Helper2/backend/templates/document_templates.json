@@ -1,0 +1,54 @@
+{
+  "templates": {
+    "handover_act": {
+      "name": "Акт приёмки квартиры",
+      "template_type": "handover_act",
+      "header_template": "АКТ ПРИЁМКИ КВАРТИРЫ",
+      "subheader_template": "Квартира № {apartment_id}",
+      "sections": [
+        "company_info",
+        "customer_info",
+        "apartment_info",
+        "defects_analysis",
+        "progress_analysis",
+        "work_journal",
+        "recommendations",
+        "signatures"
+      ],
+      "footer_template": "Документ сгенерирован автоматически системой управления строительством"
+    },
+    "defect_report": {
+      "name": "Отчет о дефектах",
+      "template_type": "defect_report",
+      "header_template": "ОТЧЕТ О ДЕФЕКТАХ",
+      "subheader_template": "Квартира № {apartment_id}",
+      "sections": [
+        "company_info",
+        "customer_info",
+        "defects_statistics",
+        "defects_details",
+        "progress_analysis",
+        "recommendations",
+        "signatures"
+      ],
+      "footer_template": "Отчет подготовлен системой контроля качества"
+    },
+    "work_report": {
+      "name": "Отчет о выполненных работах",
+      "template_type": "work_report",
+      "header_template": "ОТЧЕТ О ВЫПОЛНЕННЫХ РАБОТАХ",
+      "subheader_template": "Квартира № {apartment_id}",
+      "sections": [
+        "company_info",
+        "customer_info",
+        "work_statistics",
+        "recent_works",
+        "progress_analysis",
+        "efficiency_analysis",
+        "recommendations",
+        "signatures"
+      ],
+      "footer_template": "Отчет подготовлен системой учета работ"
+    }
+  }
+}

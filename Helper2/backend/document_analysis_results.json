@@ -1,0 +1,1525 @@
+[
+  {
+    "file_name": "work_report_1301_2d806925.docx",
+    "file_size": 37210,
+    "analysis_date": "2025-10-04T17:56:19.821614",
+    "structure": {
+      "total_paragraphs": 10,
+      "total_tables": 1,
+      "headings": [
+        {
+          "level": "Heading 1",
+          "text": "Квартира № 1301",
+          "style": "Heading 1"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Выполненные работы",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Общий прогресс",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Подписи",
+          "style": "Heading 2"
+        }
+      ],
+      "sections": [
+        {
+          "name": "works",
+          "start_paragraph": 0,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {
+        "apartment_id": "1301",
+        "date": "29.09.2025"
+      },
+      "defects": [],
+      "works": [
+        {
+          "description": "ОТЧЕТ О ВЫПОЛНЕННЫХ РАБОТАХ",
+          "type": "work",
+          "paragraph_style": "Title"
+        },
+        {
+          "description": "Выполнено: 75%",
+          "type": "work",
+          "paragraph_style": "Normal"
+        }
+      ],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 5,
+        "columns": 3,
+        "headers": [
+          "Наименование работы",
+          "Статус",
+          "Дата выполнения"
+        ],
+        "data_types": [
+          "text",
+          "status",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Наименование работы, Статус, Дата выполнения"
+      }
+    ],
+    "formatting": {
+      "font_styles": [],
+      "paragraph_styles": [
+        "Heading 2",
+        "Heading 1",
+        "Normal",
+        "Title"
+      ],
+      "alignment_styles": [],
+      "bold_count": 0,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00",
+      "modified": "2013-12-23 23:15:00",
+      "keywords": []
+    },
+    "document_type": "unknown",
+    "file_path": "../existing_documents/work_report_1301_2d806925.docx"
+  },
+  {
+    "file_name": "act_handover_1101_6ae64a81.docx",
+    "file_size": 37167,
+    "analysis_date": "2025-10-04T17:56:19.854301",
+    "structure": {
+      "total_paragraphs": 8,
+      "total_tables": 1,
+      "headings": [
+        {
+          "level": "Heading 1",
+          "text": "Квартира № 1101",
+          "style": "Heading 1"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Информация о квартире",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Подписи",
+          "style": "Heading 2"
+        }
+      ],
+      "sections": [
+        {
+          "name": "information",
+          "start_paragraph": 0,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {
+        "apartment_id": "1101",
+        "date": "29.09.2025"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 6,
+        "columns": 2,
+        "headers": [
+          "Номер квартиры:",
+          "1101"
+        ],
+        "data_types": [
+          "text",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Номер квартиры:, 1101"
+      }
+    ],
+    "formatting": {
+      "font_styles": [],
+      "paragraph_styles": [
+        "Heading 2",
+        "Heading 1",
+        "Normal",
+        "Title"
+      ],
+      "alignment_styles": [],
+      "bold_count": 0,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00",
+      "modified": "2013-12-23 23:15:00",
+      "keywords": []
+    },
+    "document_type": "unknown",
+    "file_path": "../existing_documents/act_handover_1101_6ae64a81.docx"
+  },
+  {
+    "file_name": "act_handover_1101_f05b1de2.docx",
+    "file_size": 37181,
+    "analysis_date": "2025-10-04T17:56:19.877246",
+    "structure": {
+      "total_paragraphs": 8,
+      "total_tables": 1,
+      "headings": [
+        {
+          "level": "Heading 1",
+          "text": "Квартира № 1101",
+          "style": "Heading 1"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Информация о квартире",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Подписи",
+          "style": "Heading 2"
+        }
+      ],
+      "sections": [
+        {
+          "name": "information",
+          "start_paragraph": 0,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {
+        "apartment_id": "1101",
+        "date": "29.09.2025"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 6,
+        "columns": 2,
+        "headers": [
+          "Номер квартиры:",
+          "1101"
+        ],
+        "data_types": [
+          "text",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Номер квартиры:, 1101"
+      }
+    ],
+    "formatting": {
+      "font_styles": [],
+      "paragraph_styles": [
+        "Heading 2",
+        "Heading 1",
+        "Normal",
+        "Title"
+      ],
+      "alignment_styles": [],
+      "bold_count": 0,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00",
+      "modified": "2013-12-23 23:15:00",
+      "keywords": []
+    },
+    "document_type": "unknown",
+    "file_path": "../existing_documents/act_handover_1101_f05b1de2.docx"
+  },
+  {
+    "file_name": "smart_act_handover_1101_5e2a2a4e.docx",
+    "file_size": 37310,
+    "analysis_date": "2025-10-04T17:56:19.901586",
+    "structure": {
+      "total_paragraphs": 11,
+      "total_tables": 1,
+      "headings": [
+        {
+          "level": "Heading 1",
+          "text": "Квартира № 1101",
+          "style": "Heading 1"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Информация о квартире",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Рекомендации",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Подписи",
+          "style": "Heading 2"
+        }
+      ],
+      "sections": [
+        {
+          "name": "information",
+          "start_paragraph": 0,
+          "content_type": "text"
+        },
+        {
+          "name": "works",
+          "start_paragraph": 1,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {
+        "apartment_id": "1101",
+        "date": "29.09.2025"
+      },
+      "defects": [],
+      "works": [
+        {
+          "description": "• Проверить актуальность данных о выполненных работах",
+          "type": "work",
+          "paragraph_style": "Normal"
+        }
+      ],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 8,
+        "columns": 2,
+        "headers": [
+          "Номер квартиры:",
+          "1101"
+        ],
+        "data_types": [
+          "text",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Номер квартиры:, 1101"
+      }
+    ],
+    "formatting": {
+      "font_styles": [],
+      "paragraph_styles": [
+        "Heading 2",
+        "Heading 1",
+        "Normal",
+        "Title"
+      ],
+      "alignment_styles": [],
+      "bold_count": 0,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00",
+      "modified": "2013-12-23 23:15:00",
+      "keywords": []
+    },
+    "document_type": "unknown",
+    "file_path": "../existing_documents/smart_act_handover_1101_5e2a2a4e.docx"
+  },
+  {
+    "file_name": "branded_handover_act_1101_c8a242a0.docx",
+    "file_size": 37898,
+    "analysis_date": "2025-10-04T17:56:19.932573",
+    "structure": {
+      "total_paragraphs": 22,
+      "total_tables": 4,
+      "headings": [
+        {
+          "level": "Heading 1",
+          "text": "Квартира № 1101",
+          "style": "Heading 1"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Информация о заказчике",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Информация о квартире",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Рекомендации",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Подписи",
+          "style": "Heading 2"
+        }
+      ],
+      "sections": [
+        {
+          "name": "information",
+          "start_paragraph": 0,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {
+        "apartment_id": "1101",
+        "date": "15.01.2024"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "",
+          "ООО \"СтройИнвест\"\nИНН: 7701234567 | КПП: 770101001\nОГРН: 1027701234567\nАдрес: г. Москва, ул. Строительная, д. 1, оф. 100"
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: , ООО \"СтройИнвест\"\nИНН: 7701234567 | КПП: 770101001\nОГРН: 1027701234567\nАдрес: г. Москва, ул. Строительная, д. 1, оф. 100"
+      },
+      {
+        "table_index": 1,
+        "rows": 6,
+        "columns": 2,
+        "headers": [
+          "Заказчик:",
+          "ООО \"Заказчик Плюс\""
+        ],
+        "data_types": [
+          "text",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Заказчик:, ООО \"Заказчик Плюс\""
+      },
+      {
+        "table_index": 2,
+        "rows": 4,
+        "columns": 2,
+        "headers": [
+          "Номер квартиры:",
+          "1101"
+        ],
+        "data_types": [
+          "text",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Номер квартиры:, 1101"
+      },
+      {
+        "table_index": 3,
+        "rows": 3,
+        "columns": 2,
+        "headers": [
+          "Заказчик:",
+          "Петров Петр Петрович _________________"
+        ],
+        "data_types": [
+          "text",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Заказчик:, Петров Петр Петрович _________________"
+      }
+    ],
+    "formatting": {
+      "font_styles": [],
+      "paragraph_styles": [
+        "Heading 2",
+        "Heading 1",
+        "Normal",
+        "Title"
+      ],
+      "alignment_styles": [],
+      "bold_count": 3,
+      "italic_count": 1,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00",
+      "modified": "2013-12-23 23:15:00",
+      "keywords": []
+    },
+    "document_type": "unknown",
+    "file_path": "../existing_documents/branded_handover_act_1101_c8a242a0.docx"
+  },
+  {
+    "file_name": "defect_report_1205_aee407e6.docx",
+    "file_size": 37245,
+    "analysis_date": "2025-10-04T17:56:19.987082",
+    "structure": {
+      "total_paragraphs": 13,
+      "total_tables": 1,
+      "headings": [
+        {
+          "level": "Heading 1",
+          "text": "Квартира № 1205",
+          "style": "Heading 1"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Описание дефекта",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Дополнительная информация",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Рекомендации",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Подписи",
+          "style": "Heading 2"
+        }
+      ],
+      "sections": [
+        {
+          "name": "defects",
+          "start_paragraph": 0,
+          "content_type": "text"
+        },
+        {
+          "name": "information",
+          "start_paragraph": 1,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {
+        "apartment_id": "1205",
+        "date": "29.09.2025"
+      },
+      "defects": [
+        {
+          "description": "ОТЧЕТ О ДЕФЕКТАХ",
+          "type": "defect",
+          "paragraph_style": "Title"
+        },
+        {
+          "description": "Описание дефекта",
+          "type": "defect",
+          "paragraph_style": "Heading 2"
+        },
+        {
+          "description": "Трещина в стене",
+          "type": "defect",
+          "paragraph_style": "Normal"
+        },
+        {
+          "description": "1. Устранить дефект в течение 7 дней",
+          "type": "defect",
+          "paragraph_style": "Normal"
+        }
+      ],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 4,
+        "columns": 2,
+        "headers": [
+          "Номер квартиры:",
+          "1205"
+        ],
+        "data_types": [
+          "text",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Номер квартиры:, 1205"
+      }
+    ],
+    "formatting": {
+      "font_styles": [],
+      "paragraph_styles": [
+        "Heading 2",
+        "Heading 1",
+        "Normal",
+        "Title"
+      ],
+      "alignment_styles": [],
+      "bold_count": 0,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00",
+      "modified": "2013-12-23 23:15:00",
+      "keywords": []
+    },
+    "document_type": "unknown",
+    "file_path": "../existing_documents/defect_report_1205_aee407e6.docx"
+  },
+  {
+    "file_name": "smart_act_handover_1101_edce4bff.docx",
+    "file_size": 37310,
+    "analysis_date": "2025-10-04T17:56:20.019850",
+    "structure": {
+      "total_paragraphs": 11,
+      "total_tables": 1,
+      "headings": [
+        {
+          "level": "Heading 1",
+          "text": "Квартира № 1101",
+          "style": "Heading 1"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Информация о квартире",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Рекомендации",
+          "style": "Heading 2"
+        },
+        {
+          "level": "Heading 2",
+          "text": "Подписи",
+          "style": "Heading 2"
+        }
+      ],
+      "sections": [
+        {
+          "name": "information",
+          "start_paragraph": 0,
+          "content_type": "text"
+        },
+        {
+          "name": "works",
+          "start_paragraph": 1,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {
+        "apartment_id": "1101",
+        "date": "29.09.2025"
+      },
+      "defects": [],
+      "works": [
+        {
+          "description": "• Проверить актуальность данных о выполненных работах",
+          "type": "work",
+          "paragraph_style": "Normal"
+        }
+      ],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 8,
+        "columns": 2,
+        "headers": [
+          "Номер квартиры:",
+          "1101"
+        ],
+        "data_types": [
+          "text",
+          "text"
+        ],
+        "content_summary": "Таблица с колонками: Номер квартиры:, 1101"
+      }
+    ],
+    "formatting": {
+      "font_styles": [],
+      "paragraph_styles": [
+        "Heading 2",
+        "Heading 1",
+        "Normal",
+        "Title"
+      ],
+      "alignment_styles": [],
+      "bold_count": 0,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "python-docx",
+      "created": "2013-12-23 23:15:00",
+      "modified": "2013-12-23 23:15:00",
+      "keywords": []
+    },
+    "document_type": "unknown",
+    "file_path": "../existing_documents/smart_act_handover_1101_edce4bff.docx"
+  },
+  {
+    "file_name": "4. Исх. письмо вызов ТН от 02.09.25.docx",
+    "file_size": 110762,
+    "analysis_date": "2025-10-04T17:56:20.049724",
+    "structure": {
+      "total_paragraphs": 22,
+      "total_tables": 1,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {
+        "date": "03.09.2025"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2",
+          "Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2, Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+      }
+    ],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 6,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-09-02 09:38:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/4. Исх. письмо вызов ТН от 02.09.25.docx"
+  },
+  {
+    "file_name": "3. Исх. письмо простенок 1302 от 29.08.25.docx",
+    "file_size": 110561,
+    "analysis_date": "2025-10-04T17:56:20.064280",
+    "structure": {
+      "total_paragraphs": 22,
+      "total_tables": 1,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2",
+          "Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2, Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+      }
+    ],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 6,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-08-29 14:30:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/3. Исх. письмо простенок 1302 от 29.08.25.docx"
+  },
+  {
+    "file_name": "2. Исх. письмо смещение сроков инженерных работ от 11.08.25.docx",
+    "file_size": 110289,
+    "analysis_date": "2025-10-04T17:56:20.081016",
+    "structure": {
+      "total_paragraphs": 22,
+      "total_tables": 1,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {
+        "date": "11.08.2025"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2",
+          "Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2, Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+      }
+    ],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 10,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-08-11 10:54:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/2. Исх. письмо смещение сроков инженерных работ от 11.08.25.docx"
+  },
+  {
+    "file_name": "6. Исх. письмо порча конвекторов 05.09.25.docx",
+    "file_size": 111104,
+    "analysis_date": "2025-10-04T17:56:20.109425",
+    "structure": {
+      "total_paragraphs": 22,
+      "total_tables": 1,
+      "headings": [],
+      "sections": [
+        {
+          "name": "information",
+          "start_paragraph": 0,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2",
+          "Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2, Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+      }
+    ],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 10,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-09-05 13:50:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/6. Исх. письмо порча конвекторов 05.09.25.docx"
+  },
+  {
+    "file_name": "1. Исх. письмо смещение сроков инженерных работ от 25.07.25.docx",
+    "file_size": 110398,
+    "analysis_date": "2025-10-04T17:56:20.126229",
+    "structure": {
+      "total_paragraphs": 19,
+      "total_tables": 1,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {
+        "date": "30.07.25"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2",
+          "Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2, Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+      }
+    ],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 7,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-07-25 08:22:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/1. Исх. письмо смещение сроков инженерных работ от 25.07.25.docx"
+  },
+  {
+    "file_name": "7. Исх. письмо загрязнение дверных блоков 05.09.25.docx",
+    "file_size": 85833,
+    "analysis_date": "2025-10-04T17:56:20.144294",
+    "structure": {
+      "total_paragraphs": 24,
+      "total_tables": 1,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {
+        "apartment_id": "1202"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2",
+          "Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2, Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+      }
+    ],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 10,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-09-25 08:05:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/7. Исх. письмо загрязнение дверных блоков 05.09.25.docx"
+  },
+  {
+    "file_name": "5. Исх. письмо открывание дверей от 05.09.25.docx",
+    "file_size": 111004,
+    "analysis_date": "2025-10-04T17:56:20.161871",
+    "structure": {
+      "total_paragraphs": 22,
+      "total_tables": 1,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2",
+          "Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2, Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+      }
+    ],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 6,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-09-05 14:09:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/5. Исх. письмо открывание дверей от 05.09.25.docx"
+  },
+  {
+    "file_name": "8. Исх. письмо несмонтированные створки 01.10.25.docx",
+    "file_size": 111594,
+    "analysis_date": "2025-10-04T17:56:20.179438",
+    "structure": {
+      "total_paragraphs": 11,
+      "total_tables": 1,
+      "headings": [],
+      "sections": [
+        {
+          "name": "information",
+          "start_paragraph": 0,
+          "content_type": "text"
+        }
+      ]
+    },
+    "content": {
+      "apartment_info": {
+        "date": "3.04.01"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [
+        {
+          "description": "Уведомляем Вас, что на объекте, расположенном по адресу: г. Москва, ЗАО, район Раменки, ул. Мосфильмовская, з/у 1В, корп. Т, не закрыт тепловой контур (не смонтированы створки оконных блоков) в квартирах №№ 402, 403, 503, 504, 602, 603, 604, 702, 703, 802, 803, 901, 902, 1001, 1002, 1202, 1203, 1301, 1302, 1401. В соответствии с СП 71.13330.2017 «Изоляционные и отделочные покрытия» (Актуализированная редакция СНиП 3.04.01-87, Изменение №2), п. 7.1.1 отделочные работы в помещениях следует проводить при температуре окружающей среды и отделываемых поверхностей от 5 до 30°С, относительной влажности воздуха не более 60%, если иное не указано производителем материала. Данный температурно-влажностный режим в помещении необходимо поддерживать круглосуточно в течение всего периода производства отделочных работ и не менее чем за 2 сут до начала и 12 сут после окончания работ. На сегодняшний день требуемый температурно-влажностный режим не выдержан (температура воздуха опускается до 0 градусов) по причине отсутствия полной строительной готовности оконных и балконных блоков. Данный факт может повлечь за собой ухудшения качества отделочных работ, выполненных с текущим температурно-влажностным режимом, и увеличение сроков производства работ.",
+          "type": "recommendation",
+          "paragraph_style": "Normal"
+        },
+        {
+          "description": "В соответствие с вышесказанным прошу в кратчайшие сроки инициировать завершение работ по монтажу створок оконных и балконных блоков в перечисленных квартирах корпуса Т, либо согласовать ООО «Интербилдинг» работы по закрытию теплового контура. В случае, если ООО «Интербилдинг» будет закрывать тепловой контур собственными силами, прошу согласовать коммерческое предложение на данные работы, которое будет передано представителем ООО «Интербилдинг».",
+          "type": "recommendation",
+          "paragraph_style": "Normal"
+        }
+      ],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": 1,
+        "columns": 2,
+        "headers": [
+          "Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2",
+          "Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+        ],
+        "data_types": [
+          "empty",
+          "empty"
+        ],
+        "content_summary": "Таблица с колонками: Российская Федерация, 124498, Россия, Москва г.,\n Зеленоград г., 4922-й проезд, строение 2, Руководителю проекта\n ООО «АВ Development»\nЭльман И.И."
+      }
+    ],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 10,
+      "italic_count": 0,
+      "underline_count": 0
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-10-01 13:51:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/8. Исх. письмо несмонтированные створки 01.10.25.docx"
+  },
+  {
+    "file_name": "7. Исх. письмо загрязнение дверных блоков 05.09.25 — копия.docx",
+    "file_size": 346629,
+    "analysis_date": "2025-10-04T17:56:20.196512",
+    "structure": {
+      "total_paragraphs": 29,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {
+        "date": "05.09.2025",
+        "apartment_id": "1202"
+      },
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {
+      "font_styles": [
+        "Times New Roman"
+      ],
+      "paragraph_styles": [
+        "Normal"
+      ],
+      "alignment_styles": [],
+      "bold_count": 19,
+      "italic_count": 0,
+      "underline_count": 2
+    },
+    "metadata": {
+      "title": "",
+      "author": "User",
+      "created": "2024-07-03 09:27:00",
+      "modified": "2025-09-11 16:24:00",
+      "keywords": []
+    },
+    "document_type": "letter",
+    "file_path": "../existing_documents/письма/7. Исх. письмо загрязнение дверных блоков 05.09.25 — копия.docx"
+  },
+  {
+    "file_name": "__ЕЖОТ №12_от_15.09.25.pdf",
+    "file_size": 259282,
+    "analysis_date": "2025-10-04T17:56:20.215888",
+    "document_type": "weekly_report",
+    "file_path": "../existing_documents/еденельные отчеты/__ЕЖОТ №12_от_15.09.25.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "__ЕЖОТ №11_от_08.09.25_V3.pdf",
+    "file_size": 256626,
+    "analysis_date": "2025-10-04T17:56:20.215997",
+    "document_type": "weekly_report",
+    "file_path": "../existing_documents/еденельные отчеты/__ЕЖОТ №11_от_08.09.25_V3.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "__ЕЖОТ №10_от_01.09.25_V2.pdf",
+    "file_size": 349480,
+    "analysis_date": "2025-10-04T17:56:20.216054",
+    "document_type": "weekly_report",
+    "file_path": "../existing_documents/еденельные отчеты/__ЕЖОТ №10_от_01.09.25_V2.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "__ЕЖОТ №13_от_22.09.25.pdf",
+    "file_size": 260286,
+    "analysis_date": "2025-10-04T17:56:20.216156",
+    "document_type": "weekly_report",
+    "file_path": "../existing_documents/еденельные отчеты/__ЕЖОТ №13_от_22.09.25.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "__ЕЖОТ №14_от_29.09.25.pdf",
+    "file_size": 259258,
+    "analysis_date": "2025-10-04T17:56:20.216194",
+    "document_type": "weekly_report",
+    "file_path": "../existing_documents/еденельные отчеты/__ЕЖОТ №14_от_29.09.25.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "Дефектный Акт №18-08-502 от 18.08.2025г..pdf",
+    "file_size": 3816551,
+    "analysis_date": "2025-10-04T17:56:20.216532",
+    "document_type": "defect_act",
+    "file_path": "../existing_documents/дефектные акты/Дефектный Акт №18-08-502 от 18.08.2025г..pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "Дефектный Акт №21-07-202(фактич 203) от 21.07.2025г битое стекло_подпис.pdf",
+    "file_size": 1663588,
+    "analysis_date": "2025-10-04T17:56:20.216558",
+    "document_type": "defect_act",
+    "file_path": "../existing_documents/дефектные акты/Дефектный Акт №21-07-202(фактич 203) от 21.07.2025г битое стекло_подпис.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "Дефектный Акт №16-07-803 от 17.07.2025г._подпис.pdf",
+    "file_size": 1641485,
+    "analysis_date": "2025-10-04T17:56:20.216577",
+    "document_type": "defect_act",
+    "file_path": "../existing_documents/дефектные акты/Дефектный Акт №16-07-803 от 17.07.2025г._подпис.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "Дефектный Акт №21-07-ПШ от 21.07.2025г_подпис.pdf",
+    "file_size": 2846928,
+    "analysis_date": "2025-10-04T17:56:20.216594",
+    "document_type": "defect_act",
+    "file_path": "../existing_documents/дефектные акты/Дефектный Акт №21-07-ПШ от 21.07.2025г_подпис.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "Дефектный Акт №21-07-ПО от 21.07.2025г_подпис.pdf",
+    "file_size": 10448056,
+    "analysis_date": "2025-10-04T17:56:20.216639",
+    "document_type": "defect_act",
+    "file_path": "../existing_documents/дефектные акты/Дефектный Акт №21-07-ПО от 21.07.2025г_подпис.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  },
+  {
+    "file_name": "Дефектный Акт №24-07-303 от 24.07.2025г битое стекло_подпис.pdf",
+    "file_size": 1881637,
+    "analysis_date": "2025-10-04T17:56:20.216697",
+    "document_type": "defect_act",
+    "file_path": "../existing_documents/дефектные акты/Дефектный Акт №24-07-303 от 24.07.2025г битое стекло_подпис.pdf",
+    "file_format": "pdf",
+    "structure": {
+      "total_paragraphs": 0,
+      "total_tables": 0,
+      "headings": [],
+      "sections": []
+    },
+    "content": {
+      "apartment_info": {},
+      "defects": [],
+      "works": [],
+      "recommendations": [],
+      "signatures": [],
+      "statistics": {}
+    },
+    "tables": [],
+    "formatting": {},
+    "metadata": {},
+    "quality": 3
+  }
+]

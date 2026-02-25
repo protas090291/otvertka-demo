@@ -1,0 +1,28 @@
+{
+  "company_name": "ООО \"СтройИнвест\"",
+  "company_full_name": "Общество с ограниченной ответственностью \"СтройИнвест\"",
+  "legal_address": "г. Москва, ул. Строительная, д. 1, оф. 100",
+  "postal_address": "г. Москва, ул. Строительная, д. 1, оф. 100",
+  "inn": "7701234567",
+  "kpp": "770101001",
+  "ogrn": "1027701234567",
+  "okpo": "12345678",
+  "okved": "41.20",
+  "bank_name": "ПАО \"Сбербанк\"",
+  "bank_bik": "044525225",
+  "bank_account": "40702810123456789012",
+  "correspondent_account": "30101810400000000225",
+  "ceo_name": "Иванов Иван Иванович",
+  "ceo_title": "Генеральный директор",
+  "phone": "+7 (495) 123-45-67",
+  "email": "info@stroinvest.ru",
+  "website": "www.stroinvest.ru",
+  "logo_path": "assets/logo.png",
+  "stamp_path": "assets/stamp.png",
+  "signature_path": "assets/signature.png",
+  "brand_colors": {
+    "primary": "#1E40AF",
+    "secondary": "#3B82F6",
+    "accent": "#F59E0B"
+  }
+}

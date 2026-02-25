@@ -1,0 +1,25 @@
+{
+  "dataset_name": "expanded_concrete_defects",
+  "description": "Расширенный датасет дефектов бетона с синтетическими примерами",
+  "classes": {
+    "positive": "Дефекты (трещины, пятна, повреждения)",
+    "negative": "Нормальный бетон без дефектов"
+  },
+  "image_size": [
+    224,
+    224
+  ],
+  "augmentation": {
+    "rotation": 20,
+    "brightness": 0.3,
+    "contrast": 0.3,
+    "horizontal_flip": true,
+    "zoom_range": 0.2
+  },
+  "training": {
+    "batch_size": 16,
+    "epochs": 20,
+    "learning_rate": 0.0005,
+    "validation_split": 0.2
+  }
+}

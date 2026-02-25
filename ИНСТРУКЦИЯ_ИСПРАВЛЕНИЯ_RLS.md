@@ -56,3 +56,24 @@ WHERE table_name = 'tasks';
 1. Проверьте правильность URL и ключей Supabase в файле `src/lib/supabase.ts`
 2. Убедитесь, что используете service role key для админских операций
 3. Проверьте логи Supabase в разделе "Logs" в Dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

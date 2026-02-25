@@ -1,0 +1,38 @@
+{
+  "dataset_name": "maximized_concrete_defects",
+  "description": "Максимально улучшенный сбалансированный датасет дефектов бетона",
+  "classes": {
+    "positive": "Дефекты (трещины, пятна, повреждения, сколы)",
+    "negative": "Нормальный бетон без дефектов"
+  },
+  "image_size": [
+    224,
+    224
+  ],
+  "augmentation": {
+    "rotation": 30,
+    "brightness": 0.4,
+    "contrast": 0.4,
+    "horizontal_flip": true,
+    "vertical_flip": true,
+    "zoom_range": 0.3,
+    "shear_range": 0.2,
+    "width_shift_range": 0.2,
+    "height_shift_range": 0.2
+  },
+  "training": {
+    "batch_size": 32,
+    "epochs": 50,
+    "learning_rate": 0.0001,
+    "validation_split": 0.2,
+    "class_weight": {
+      "0": 1.0,
+      "1": 1.0
+    }
+  },
+  "model": {
+    "architecture": "advanced_cnn",
+    "regularization": "strong",
+    "optimization": "adam_with_scheduling"
+  }
+}

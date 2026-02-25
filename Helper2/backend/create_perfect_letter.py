@@ -1,0 +1,65 @@
+#!/usr/bin/env python3
+"""
+Создание идеального письма с точным форматированием номера документа
+"""
+
+from learning_document_generator import LearningDocumentGenerator
+
+def create_perfect_letter():
+    """Создает идеальное письмо с точным форматированием"""
+    print("📧 Создание идеального письма с точным форматированием номера документа...")
+    
+    generator = LearningDocumentGenerator(
+        documents_dir="../existing_documents",
+        supabase_url=None,
+        supabase_key=None
+    )
+    
+    # Данные для идеального письма
+    document_data = {
+        'apartment_id': '1501',
+        'apartment_number': '1501',
+        'issue_type': 'смещение сроков поставки материалов',
+        'issue_description': 'задержка в поставке материалов для отделочных работ в квартире 1501, что влияет на общие сроки сдачи объекта',
+        'expected_resolution': 'Ускорение поставки материалов и компенсация задержки',
+        'contact_person': 'Петров П.П.',
+        'phone': '+7 (999) 123-45-67'
+    }
+    
+    try:
+        # Создаем письмо
+        result = generator.generate_learning_based_document(
+            template_type='letter',
+            command_data=document_data
+        )
+        
+        if result:
+            print("✅ Идеальное письмо с точным форматированием создано!")
+            print(f"📁 Файл: {result}")
+            
+            # Показываем содержимое
+            print("\n📄 СОДЕРЖИМОЕ ИДЕАЛЬНОГО ПИСЬМА:")
+            print("=" * 60)
+            
+            from docx import Document
+            doc = Document(result)
+            for i, paragraph in enumerate(doc.paragraphs, 1):
+                if paragraph.text.strip():
+                    print(f"{i:2d}. {paragraph.text}")
+            
+            print("=" * 60)
+            
+            return result
+        else:
+            print("❌ Не удалось создать идеальное письмо")
+            return None
+            
+    except Exception as e:
+        print(f"❌ Ошибка при создании идеального письма: {e}")
+        return None
+
+if __name__ == "__main__":
+    create_perfect_letter()
+
+
+
