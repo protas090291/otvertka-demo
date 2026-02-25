@@ -25,6 +25,10 @@ build/
 .DS_Store
 Thumbs.db
 
+# Tools (not project source)
+bfg*.jar
+bfg-1.14.0.jar
+
 # Logs
 *.log
 
