@@ -8,6 +8,9 @@ yarn-error.log*
 dist/
 build/
 
+# Node.js runtime (too large for GitHub)
+nodejs/
+
 # Environment variables
 .env
 .env.local
