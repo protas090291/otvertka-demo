@@ -66,8 +66,9 @@ backend/documents/*.pdf
 # Batch files (можно удалить после настройки)
 *.bat
 
-# HTML test files
+# HTML test files (but keep app entry)
 *.html
+!Helper2/index.html
 
 
 
